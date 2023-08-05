@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Color Generator</title>
+</head>
+<body>
+<section class="wrapper">
+    <div class="gradient-box"></div>
+    <div class="row options">
+        <div class="column direction">
+            <p>Direction</p>
+            <div class="select-box">
+                <select>
+                    <option value="to top">Top</option>
+                    <option value="to right to">Right top</option>
+                    <option value="to right">Right</option>
+                    <option value="to right bottom">Right bottom</option>
+                    <option value="to bottom">Bottom</option>
+                    <option value="to left bottom">Left bottom</option>
+                    <option value="to left">Left</option>
+                    <option value="to left top" selected>Left top</option>
+                </select>
+            </div>
+        </div>
+        <div class="column colors">
+            <p>Colors</p>
+            <div class="inputs">
+                <input type="color" value="#5665E9">
+                <input type="color" value="#A271F8">
+            </div>
+        </div>
+        <textarea class="row" disabled>background: linear-gradient(to left top, #977DFE, #6878FF);</textarea>
+    </div>
+        <button class="refresh">Refresh Colors</button>
+        <button class="copy">Copy Code</button>
+</section>
+<script src="src/app.js"></script>
+</body>
+</html>
