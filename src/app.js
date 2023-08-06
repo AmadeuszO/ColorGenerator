@@ -2,7 +2,7 @@ const gradientBox = document.querySelector('.gradient-box');
 const selectMenu = document.querySelector('.select-box select');
 const colorInput = document.querySelectorAll('.colors input');
 const textarea = document.querySelector('textarea')
-
+gvghghjughjjh
 const generateGradient = () => {
     const gradient = `linear-gradient(to top left,(${selectMenu.value}, ${colorInput[0].value}, ${colorInput[1].value})`;
     gradientBox.style.background = gradient;
