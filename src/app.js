@@ -7,7 +7,7 @@ const copyButton = document.querySelector(".copy");
 
 
 const randomColor = () => {
-    // Generating a random color in hexadecimal format. Example: #5665E9
+    // Randomowe kolory, wroci pożniej do tego !
     const randomHex = Math.floor(Math.random() * 0xffffff).toString(16);
     return `#${randomHex}`;
 }
